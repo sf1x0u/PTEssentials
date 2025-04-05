@@ -1,4 +1,4 @@
-Host header injection: 
+1) Host header injection: 
 Step 1: Run the following command to install headi
 
 $ go install github.com/mlcsec/headi@latest
@@ -11,3 +11,6 @@ $ headi -u URL -p payload.txt -> To Run using custom payload
 
 Normal Usage: 
 $ headi -u <Target-URL>
+======================================================================================
+======================================================================================
+2) 
