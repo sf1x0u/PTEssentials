@@ -1,0 +1,13 @@
+Host header injection: 
+Step 1: Run the following command to install headi
+
+$ go install github.com/mlcsec/headi@latest
+$ sudo mv go/bin/headi /usr/local/bin
+
+Step 2: Now run the following command to use headi tool
+
+$ headi -u URL -> To Run using default payload (127.0.0.1, localhost, etc.)
+$ headi -u URL -p payload.txt -> To Run using custom payload
+
+Normal Usage: 
+$ headi -u <Target-URL>
